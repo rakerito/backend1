@@ -1,5 +1,5 @@
 import {Router} from "express"
-import {nuevoContacto, mostrarContactos} from "../bd/contactosBD.js"
+import {nuevoContacto, mostrarrContactos} from "../bd/contactosBD.js"
 
 const router = Router()
 
