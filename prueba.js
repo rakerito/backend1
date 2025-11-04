@@ -1,3 +1,5 @@
-var a=10
-var b=20
-console.log("La suma es: ",suma)
+var a = 10,
+    b = 20,
+    suma = a + b;
+
+console.log("La suma es: " + suma);

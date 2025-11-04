@@ -1,0 +1,25 @@
+<%- include("templates/header.ejs") %>
+<h1 class="text-primary text-center my-4">Contáctanos</h1>
+
+<form id="multiplicacion" class="container p-4 border rounded shadow-sm bg-light">
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input class="form-control" type="text" name="nombre" id="nombre">
+    </div>
+
+    <div class="mb-3">
+        <label for="edad" class="form-label">Edad:</label>
+        <input class="form-control" type="text" name="edad" id="edad">
+    </div>
+
+    <div class="mb-3">
+        <label for="comentario" class="form-label">Comentario:</label>
+        <input class="form-control" type="text" name="comentario" id="comentario">
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-primary px-4" id="botonEnviar" type="submit">Enviar :D</button>
+    </div>
+</form>
+
+<%- include("templates/footer.ejs") %>
